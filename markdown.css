@@ -1,0 +1,15 @@
+#preview{
+    background-color: #afca88;
+    color:#23625f;
+    width: 60%;
+    margin:30px auto;
+    padding:10px;
+  }
+  
+  textarea{
+    min-width: 40%;
+   background-color:#23625f;
+    border-radius:8px;
+    padding:10px;
+    border:2px solid black;
+  }
