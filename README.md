@@ -56,4 +56,3 @@ These dependencies are managed using a package manager like npm or yarn.
 Conclusion
 
 The Markdown editor and previewer project provides a simple implementation of a Markdown editor using React. It can be used as a starting point for building more advanced Markdown editors or integrated into larger projects. Feel free to modify and expand upon the project to suit your specific needs.
-# Markdown_Preview
