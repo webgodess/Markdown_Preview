@@ -1,15 +1,37 @@
-#preview{
-    background-color: #afca88;
-    color:#23625f;
-    width: 60%;
-    margin:30px auto;
-    padding:10px;
+.container {
+  display: flex;
+  flex-direction: column;
+}
+#preview {
+  background-color: #afca88;
+  color: #23625f;
+  max-width: 100%;
+  margin: 30px auto;
+  padding: 10px;
+  font-size: larger;
+}
+
+textarea {
+  width: 96%;
+  background-color: #23625f;
+  color: #d0cec8;
+  border-radius: 8px;
+  padding: 10px;
+  border: 2px solid black;
+  font-size: x-large;
+  min-height: 20vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  /* Tablet styles */
+  #preview {
+    width: 80%;
   }
-  
-  textarea{
-    min-width: 40%;
-   background-color:#23625f;
-    border-radius:8px;
-    padding:10px;
-    border:2px solid black;
+  textarea {
+    width: 70%;
   }
+}
