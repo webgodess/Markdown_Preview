@@ -1,7 +1,6 @@
-let init = ` 
-# I am a H1 
+let init = `# I am a H1 
 ## Heading level 2
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com)
+My favourite search engine is [Duck Duck Go](https://duckduckgo.com)
 
 At the command prompt, type \`nano\`
 \`\`\`
@@ -41,7 +40,7 @@ class Editor extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <textarea
           id="editor"
           value={this.state.value}
