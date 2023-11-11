@@ -1,10 +1,19 @@
+body {
+  background-color: #fffffe;
+  color: #272343;
+}
+
+h1 {
+  text-align: center;
+}
+
 .container {
   display: flex;
   flex-direction: column;
 }
 #preview {
-  background-color: #afca88;
-  color: #23625f;
+  background-color: #e3f6f5;
+  color: #272343;
   max-width: 100%;
   margin: 30px auto;
   padding: 10px;
@@ -13,8 +22,8 @@
 
 textarea {
   width: 96%;
-  background-color: #23625f;
-  color: #d0cec8;
+  background-color: #272343;
+  color: #bae8e8;
   border-radius: 8px;
   padding: 10px;
   border: 2px solid black;
@@ -28,10 +37,18 @@ img {
 
 @media (min-width: 1024px) {
   /* Tablet styles */
+  .container {
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+  }
   #preview {
-    width: 80%;
+    width: 45%;
+    border-radius: 1%;
   }
   textarea {
-    width: 70%;
+    width: 45%;
+    min-height: 100%;
+    margin: 30px auto;
   }
 }
